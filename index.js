@@ -19,7 +19,7 @@ function sayHiToGrandma(string) {
   var uppercase = shout(string)
   var mixedCase = "I love you, Grandma."
 
-  if (string === lowercase) {
+  if (string.toLowerCase() === lowercase) {
     console.log("I can\'t hear you!")
   } else if (string === uppercase) {
     console.log("YES INDEED!")
